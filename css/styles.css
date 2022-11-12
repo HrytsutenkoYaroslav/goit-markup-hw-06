@@ -875,4 +875,4 @@ left: 56px;}
 .form-input {padding-left: 42px;}
 
 input {outline: none;}
-.form-input:focus .modal-svg {fill: #2196f3;}
+.form-input:focus + .modal-svg{fill: #2196F3;}
