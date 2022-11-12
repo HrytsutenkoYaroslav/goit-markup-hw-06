@@ -862,10 +862,13 @@ outline: none;}
 .form-input:focus {border: 1px solid #2196F3;
   border-radius: 4px;
 border-color: #2196F3;
-transition: 250ms;}
+transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   
   .form-field-area:focus {border: 1px solid #2196F3;
-    border-radius: 4px;}
+    border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
     .modal-span {margin-bottom: 4px;
     margin-left: 41px;
   margin-top: 10px;}
@@ -875,4 +878,6 @@ left: 56px;}
 .form-input {padding-left: 42px;}
 
 input {outline: none;}
-.form-input:focus + .modal-svg{fill: #2196F3;}
+.form-input:focus + .modal-svg{fill: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
